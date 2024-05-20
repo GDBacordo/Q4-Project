@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+	<title>Q4 Project</title>
+	<style>
+		html {
+			cursor: url("http://media.tumblr.com/tumblr_ma87zyEpuf1qid2nw.gif"), default;
+		}
+		body {
+			font-family:Verdana;
+			background-image: linear-gradient(#b0b0b080, #b0b0b080), url(https://images.pexels.com/photos/12095920/pexels-photo-12095920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+			background-attachment:fixed;
+			color:#201A23;
+			cursor: url("http://www.rw-designer.com/cursor-view/154284.png"), default;
+		}
+		a:hover, button:hover {
+			cursor: url("http://www.rw-designer.com/cursor-view/154298.png"), default;
+		}
+		header {
+			letter-spacing:10px;
+			background-color:#9FA4A9;
+			background-image:linear-gradient(to bottom, #9FA4A9 60%, #e6cdae);
+		}
+		#intro {
+			text-align:justify;
+			background-color:#9FA4A980;
+			border: 1px dashed #000000;
+			width:1250px;
+		}
+		.media {
+			width: 350px;
+		  	height: 350px;
+			background-color:#7D98A150;
+			box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+			padding:10px;
+		}
+		.txt {
+			background-color:#b0b0b050;
+			box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+			width: 350px;
+		  	height: 350px;
+		}
+		.txt p {
+			text-align:justify;
+			padding-left:15px;
+			padding-right:15px;
+		}
+		.img {
+			opacity:0.7;
+			width: 330px;
+		  	height: 330px;
+		}
+		.img:hover {
+			opacity:1;
+		}
+		ul {
+			list-style-type:circle;
+		}
+		footer {
+			background-color:#9FA4A980;
+			border: 1px dashed #000000;
+		}
+		.navig {
+			opacity:0.6;
+			background-color:#9FA4A980;
+			border: 1px solid #000000;
+			font-size: 25px;
+			border-radius:5%;
+			box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+		}
+		.navig:hover {
+			opacity:1;
+		}
+		#secondPage {
+			display:none;
+		}
+	</style>
+</head>
+<body>
+
+	<header class="text-center opacity-75 p-5">
+			<h1>Photo Gallery</h1>
+	</header>
+
+	<div id="intro" class="mx-auto p-4 mt-5 mb-5">
+			<p>The Philippines, boasting over 7,000 islands, is the ultimate destination for a one-of-a-kind getaway. This tropical paradise boasts an abundance of natural wonders, a diverse cultural heritage, and a fun-filled atmosphere that is sure to leave a lasting impression on visitors. With so many islands to explore, there is something for everyone, whether you seek thrilling pursuits, breathtaking landscapes, or unforgettable encounters with locals.</p>
+
+			<p>Below are six popular landmarks that you can find here in the Philippines:</p>
+	</div>
+
+	<div id="Page1">
+		<div class="row justify-content-center">
+			<div class="col-xl-4 txt justify-content-center align-items-center d-flex flex-column m-2">
+				<h3 class="text-center">Tubbataha Reef, Palawan</h3>
+					<p>Tubbataha Reef is a must-visit for divers and marine conservationists in the Philippines. The Tubbataha Reefs Natural Park is a UNESCO World Heritage Site and was on the shortlist for the New Seven Wonders of the Natural World.</p>
+			</div>
+			<div class="col-xl-4 media m-2">
+				<img class="img object-fit-cover" src="https://gttp.imgix.net/222329/x/0/12-shutterstock-612104084.jpg?auto=format%2Ccompress&crop=faces%2Cedges%2Ccenter&bg=%23fff&fit=crop&q=35&h=597&dpr=2" alt="Mayon Volcano in the horizon of a lake with lily pads">
+			</div>
+			<div class="col-xl-4 txt justify-content-center align-items-center d-flex flex-column m-2">
+				<h3 class="text-center">Kawasan Falls, Cebu</h3>
+					<p>Kawasan Falls in Cebu is a must-visit spot for anyone looking to cool off in turquoise waters. Its multi-layered waterfalls and 40-meter height offer a unique swimming experience, especially on bamboo rafts. The 10-minute trek leads to a quieter second cascade, near the nearby town of Moalboal that offers its own unique sardine run experience.</p>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-xl-4 media m-3">
+				<img class="img object-fit-cover" src="https://gttp.imgix.net/222328/x/0/13-shutterstock-1396297616-tubbataha.jpg?auto=format%2Ccompress&crop=faces%2Cedges%2Ccenter&bg=%23fff&fit=crop&q=35&h=597&dpr=2" alt="Underwater view of a person diving alongside a school of fish">
+			</div>
+			<div class="col-xl-4 txt justify-content-center align-items-center d-flex flex-column m-2">
+				<h3 class="text-center">Mayon Volcano, Albay, Bicol</h3>
+					<p>The majestic and active Mayon Volcano, the most perfect volcanic cone in the world, towers over the Bicol landscape, greeting visitors with its imposing beauty. With its impressive height and perfect conical shape, Mayon Volcano is truly one of the most beautiful natural wonders of the Philippines.</p>
+			</div>
+			<div class="col-xl-4 media m-2">
+				<img class="img object-fit-cover" src="https://gttp.imgix.net/222320/x/0/erwin-lim63-kawasan-cebu-2.jpg?auto=format%2Ccompress&crop=faces%2Cedges%2Ccenter&bg=%23fff&fit=crop&q=35&h=597&dpr=2" alt="An aerial view of the Kawasan Falls surrounded by trees">
+			</div>
+		</div>
+	</div>
+	<div id="Page2" style="display:none">
+		<div class="row justify-content-center">
+			<div class="col-xl-4 m-2 d-flex flex-column justify-content-center align-items-center txt">
+				<h3 class="text-center">Chocolate Hills, Bohol</h3>
+					<p>The Chocolate Hills of Bohol, listed as a UNESCO World Heritage Natural Monument, is a geomorphic marvel that any visitor to the Philippines must see. It has 1,268 cone-shaped hills that turn a beautiful chocolatey brown during the dry season. The Chocolate Hills are a must-visit destination for any trip to Bohol and are an iconic landmark of the Philippines.</p>
+			</div>
+			<div class="col-xl-4 m-2 media">
+				<img class="img object-fit-cover" src="https://gttp.imgix.net/222334/x/0/15-best-tourist-spots-in-the-philippines-beaches-diving-spots-rivers-waterfalls-historic-sites-28.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883" alt="A wooden bridge crossing along a body of water in between two islands">
+			</div>
+			<div class="col-xl-4 m-2 d-flex flex-column justify-content-center align-items-center txt">
+				<h3 class="text-center">Nacpan Beach, El Nido</h3>
+					<p>El Nido, in Palawan, is a paradise island that is renowned for its pristine beaches and clear lagoons. However, there is another idyllic destination only 45 minutes away from the main town: Nacpan Beach. It is a must-see for island-hopping escapades in El Nido, including a visit to El Nido Big Lagoon and other top Palawan beaches.<p>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-xl-4 m-2 media">
+				<img class="img object-fit-cover" src="https://gttp.imgix.net/222335/x/0/15-best-tourist-spots-in-the-philippines-beaches-diving-spots-rivers-waterfalls-historic-sites-32.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883" alt="A collection of brown hills stretching into the horizon">
+			</div>
+			<div class="col-xl-4 m-2 d-flex flex-column justify-content-center align-items-center txt">
+				<h3 class="text-center">Cloud 9, Siargao</h3>
+					<p>Siargao in the Philippines has become a hotspot for surfers from across the globe, with Cloud 9 being the most famous and challenging destination for experienced surfers. For the more adventurous or advanced surfers, Cloud 9 is a must-visit spot to test their skills and see how they fare in one of the best surfing conditions in Asia.</p>
+			</div>
+			<div class="col-xl-4 m-2 media">
+				<img class="img object-fit-cover" src="https://gttp.imgix.net/222327/x/0/15-best-tourist-spots-in-the-philippines-beaches-diving-spots-rivers-waterfalls-historic-sites-6.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883" alt="An aerial view of Nacpan beach and its shoreline">
+			</div>
+		</div>
+	</div>
+
+	<div class="buttons text-center mt-3 mb-3">
+		<a href="#top">
+			<button class="p-3 navig align-items-center">Back to Top</button>
+		</a>
+		<a href="#" onclick="return show('Page1','Page2');">
+			<button class="p-3 navig align-items-center">Page 1</button>
+		</a>
+		<a href="#" onclick="return show('Page2','Page1');">
+			<button class="p-3 navig align-items-center">Page 2</button>
+		</a>
+
+	</div>
+
+	<footer class="p-3 mt-3">
+		<small>References:</small><br>
+			<ul>
+				<li><small>Yañez, G. (n.d.). <em>15 Best Tourist Spots in the Philippines: Beaches, Diving Spots, Rivers, Waterfalls, Historic Sites.</em> Guide to the Philippines. <a href="https://guidetothephilippines.ph/articles/what-to-experience/top-tourist-spots-philippines" target="_blank">https://guidetothephilippines.ph/articles/what-to-experience/top-tourist-spots-philippines</a></small></li>
+			</ul>
+	</footer>
+
+	<script>
+		// switches between pages
+		function show(shown, hidden) {
+			document.getElementById(shown).style.display='block';
+			document.getElementById(hidden).style.display='none';
+			return false;
+		}
+	</script>
+
+</body>
+</html>
