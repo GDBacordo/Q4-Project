@@ -179,9 +179,9 @@
 		    const newComment = document.getElementById("newComment").value;
 		    const userName = document.getElementById("userName").value;
 		    // creates new paragraph for the comment
-		    commentElement.innerText = userName + ": " + newComment;
 		    const commentContainer = document.getElementById("commentContainer");
 		    const commentElement = document.createElement("p");
+		    commentElement.innerText = userName + ": " + newComment;
 		    // appends comement to comment container
 		    commentContainer.appendChild(commentElement);
 		    // clears comment field after posting comment
