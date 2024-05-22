@@ -155,7 +155,6 @@
 					</div>
 						<div id="commentContainer" class="overflow-auto mb-2">
 							<span class="lead">Comment Section</span>
-							<small>(Does not save upon refresh or sync)</small>
     					</div>
 					<div class="col-xl-6">
 					</div>
@@ -197,6 +196,8 @@
 		    commentContainer.appendChild(commentElement);
 		    // clears comment field after posting comment
 		    document.getElementById("newComment").value = "";
+		    // alert
+		    window.alert("This comment does not save upon refresh or sync across devices.")
 		}
 
 	</script>
