@@ -45,7 +45,7 @@
 			background-color:#EAC9C1;
 			transform:rotateY(-180deg);
 		}
-		.card.cardFlip {
+		.cardFlip {
 			transform:rotateY(-180deg);
 		}
 		.comments {
@@ -107,7 +107,7 @@
 		<div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
 			<div class="container">
-				<div class="card">
+				<div class="card" onclick="flipCard()">
 					<div class="front position-absolute top-0 start-0">
 						<img src="https://i.ibb.co/JRJ8X8g/me.webp" alt="Giana Bacordo" class="w-100 h-100 object-fit-cover">
 					</div>
@@ -180,10 +180,10 @@
 
 	<script>
 		// flips card on click
-		const card = document.querySelector(".card");
-		card.addEventListener("click", () => {
+		function flipCard(){
+			const card = document.querySelector(".card");
 			card.classList.toggle("cardFlip")
-		})
+		}
 		function buttonClick() {
 		    // gets comment & username from the text area
 		    const newComment = document.getElementById("newComment").value;
